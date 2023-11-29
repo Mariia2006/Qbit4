@@ -12,11 +12,11 @@ namespace ConsoleApp5
             char element = char.Parse(Console.ReadLine());
             if ((int)element >= 65 && (int)element <= 90)
             {
-                Console.WriteLine(element.ToString().ToLower());
+                Console.WriteLine("Your changed element" + element.ToString().ToLower());
             }
             if ((int)element >= 97 && (int)element <= 122)
             {
-                Console.WriteLine(element.ToString().ToUpper());
+                Console.WriteLine("Your changed element" + element.ToString().ToUpper());
             }
         }
     }
